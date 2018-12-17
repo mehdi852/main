@@ -1,0 +1,22 @@
+.FadeInDown{
+    animation: FadeInDown 2s ease-in-out;
+  }
+  .FadeIn{
+    animation: FadeIn 2s ease-in-out;
+  }
+  .Item-animation{
+    animation: LeftToRight 3s ease-in-out;
+  }
+  @keyframes FadeInDown{
+     0% { transform: translateY(-100px) ; opacity: 0;}
+     100% { transform: translateY(0px) ; opacity: 1;}
+  }
+  @keyframes FadeIn{
+    0% {  opacity: 0;}
+    100% {  opacity: 1;}
+ }
+
+ @keyframes LeftToRight{
+    0% {  transform: translateX(2000px) ;}
+    100% { transform: translateX(0px) ;}
+ }
